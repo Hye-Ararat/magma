@@ -6,22 +6,28 @@
     "name": "Paper",
     "author": "joseph.maldjian@hye.gg",
     "description": "Paper is the next generation of Minecraft server, compatible with Spigot plugins, offering uncompromising performance.",
-    "images": [
-        {
-            "image": "example2bedefined",
-            "alias": "1.17 Java 16"
-        },
-        {
-            "image": "example2bedefined",
-            "alias": "1.16 Java 16"
-        },
-        {
-            "image": "example2bedefined",
-            "alias": "1.16 Java 11"
-        }
-
-
-    ],
+    "images": {
+        "1.17": [
+            {
+                "image": "example to be defined",
+                "alias": "Java 16"
+            }
+        ],
+        "1.16": [
+            {
+                "image": "example to be defined",
+                "alias": "Java 16"
+            },
+            {
+                "image": "example to be defined",
+                "alias": "Java 11"
+            },
+            {
+                "image": "example to be defined",
+                "alias": "Java 8"
+            }
+        ]
+    },
     "mount": "/home/hye",
     "config": [
         {
