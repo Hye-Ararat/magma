@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "version": "1.0",
+        "update_url": null
+    },
+    "name": "Ubuntu Focal",
+    "author": "joseph.maldjian@hye.gg",
+    "description": "Ubuntu Focal Fossa",
+    "system": {
+        "os": "ubuntu",
+        "release": "focal"
+    }
+}
