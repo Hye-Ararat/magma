@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "version": "1.0",
+        "update_url": null
+    },
+    "name": "Paper",
+    "author": "joseph.maldjian@hye.gg",
+    "description": "Paper is the next generation of Minecraft server, compatible with Spigot plugins, offering uncompromising performance.",
+    "images": [
+        "to be defined"
+    ],
+    "mount": "/home/hye",
+    "config": [
+        {
+            "file_name": "server.properties",
+            "parser": "properties",
+            "options": [
+                {
+                    "key": "server-ip",
+                    "value": "0.0.0.0"
+                },
+                {
+                    "key": "server-port",
+                    "value": "{{server_config.primary_port}}"
+                }
+            ]
+        }
+    ],
+    "startup": "/usr/bin/java -Xms128M -Xmx{{server_config.memory}}M -jar /home/hye/server.jar",
+    "states": {
+        "running": [
+            [
+                "Done (",
+                "! For help, type"
+            ]
+        ]
+    },
+    "stop": "stop",
+    "enchantments": [
+        "minecraft_java"
+    ],
+    "variables": []
+}
