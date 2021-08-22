@@ -12,4 +12,4 @@ RUN cd /home/hye && wget -O server.properties https://raw.githubusercontent.com/
 USER hye
 ENV USER=hye HOME=/home/hye
 WORKDIR /home/hye
-ENTRYPOINT [ "/usr/bin/java" , "-jar", "/home/hye/server.jar"]x
+ENTRYPOINT [ "/usr/bin/java" , "-jar", "/home/hye/server.jar"]
