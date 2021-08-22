@@ -7,6 +7,12 @@
     "author": "joseph.maldjian@hye.gg",
     "description": "Paper is the next generation of Minecraft server, compatible with Spigot plugins, offering uncompromising performance.",
     "images": {
+        "Latest": [
+            {
+                "image": "example to be defined",
+                "alias": "Java 16"
+            }
+        ],
         "1.17": [
             {
                 "image": "example to be defined",
