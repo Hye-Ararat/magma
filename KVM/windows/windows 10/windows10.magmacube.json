@@ -3,10 +3,10 @@
         "version": "1.0",
         "update_url": null
     },
-    "architecture": "x86_64",
     "name": "Microsoft Windows 10",
     "author": "joseph.maldjian@hye.gg",
     "description": "Microsoft Windows 10",
+    "architecture": "x86_64",
     "console": "vga",
     "options": {
         "security.secure_boot": "false"
