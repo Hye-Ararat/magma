@@ -21,7 +21,7 @@
             "name": "iso",
             "type": "disk",
             "source": "/var/lib/lava/kvm_storage/hye_win_21H2.iso",
-            "options": []
+            "options": ["readonly=true"]
         }
     ]
 }
