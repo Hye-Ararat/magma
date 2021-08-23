@@ -8,9 +8,6 @@
     "description": "Microsoft Windows 10",
     "architecture": "x86_64",
     "console": "vga",
-    "config": {
-        "security.secure_boot": "false"
-    },
     "downloads": [
         {
             "source": "https://storage.speed.hye.gg/kvm/windows/windows10/hye_win_21H2.iso",
@@ -22,6 +19,12 @@
             "source": "/var/lib/lava/kvm_storage/hye_win_21H2.iso",
             "type": "disk",
             "options": ["readonly=true"]
+        },
+        "root": {
+            "path": "/",
+            "pool": "nvpsfs",
+            "type": "disk",
+            "size": "{{server_config.disk}}MB"
         }
     }
 }
