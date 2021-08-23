@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "version": "1.0",
+        "update_url": null
+    },
+    "name": "Microsoft Windows 10",
+    "author": "joseph.maldjian@hye.gg",
+    "description": "Microsoft Windows 10",
+    "console": "vga",
+    "options": {
+        "security.secure_boot": "false"
+    },
+    "downloads": [
+        {
+            "source": "https://storage.speed.hye.gg/kvm/windows/windows10/hye_win_21H2.iso",
+            "output": "hye_win_21H2.iso"
+        }
+    ],
+    "devices": [
+        {
+            "name": "iso",
+            "type": "disk",
+            "source": "/var/lib/lava/kvm_storage/hye_win_21H2.iso"
+        }
+    ]
+}
