@@ -8,7 +8,7 @@
     "description": "Microsoft Windows 10",
     "architecture": "x86_64",
     "console": "vga",
-    "options": {
+    "config": {
         "security.secure_boot": "false"
     },
     "downloads": [
@@ -17,12 +17,11 @@
             "output": "hye_win_21H2.iso"
         }
     ],
-    "devices": [
-        {
-            "name": "iso",
-            "type": "disk",
+    "devices": {
+        "iso": {
             "source": "/var/lib/lava/kvm_storage/hye_win_21H2.iso",
+            "type": "disk",
             "options": ["readonly=true"]
         }
-    ]
+    }
 }
